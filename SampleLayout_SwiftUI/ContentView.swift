@@ -9,37 +9,51 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // VStackを使用して垂直にテキストを配置します
-        VStack(alignment: .leading,
-               spacing: 20) {
+        VStack(spacing: 20) {
+            // 水平スタック：HStack
+            HStack(spacing: 10) {
+                Text("左")
+                Divider() // 区切り線
+                Text("中央")
+                Divider() // 区切り線
+                Text("右")
+            }
 
-            // ヘッダーとしてのテキスト
-            Text("ヘッダー")
-                .font(.largeTitle) // フォントサイズを大きくします
-                .fontWeight(.bold) // 太字にします
-                .foregroundColor(.blue) // 色を青に設定します
+            // 垂直スタック：VStack
+            VStack(alignment: .leading, spacing: 10) {
+                Text("上")
+                Divider()
+                Text("中")
+                Divider()
+                Text("下")
+            }
+            .background(Color.gray.opacity(0.2)) // 背景色の追加
 
-            // サブヘッダーとしてのテキスト
-            Text("サブヘッダー")
-                .font(.headline) // ヘッドラインフォントを使用します
-                .padding(.leading) // 左側に余白を追加します
+            // ZStack：重ね合わせ
+            ZStack {
+                Image("test7")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 150)
 
-            // 本文としてのテキスト
-            Text("この部分は本文です。ここに説明や内容を書くことができます。")
-                .font(.body) // 本文用のフォントスタイルを使用します
-                .lineLimit(3) // 行数を3に制限します
-                .truncationMode(.tail) // 末尾での切り捨てを使用します
-                .frame(width: 300) // 幅を300ポイントに制限します
+                Text("重ねて表示するテキスト")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.black.opacity(0.7))
+            }
 
-            // フッターとしてのテキスト
-            Text("フッター")
-                .font(.caption) // キャプションフォントを使用します
-                .foregroundColor(.gray) // 色を灰色に設定します
-            
-                .frame(maxWidth: .infinity,
-                       alignment: .trailing) // 右揃えにします
+            // グリッド：LazyVGrid
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 80))], spacing: 20) {
+                ForEach(0..<9) { index in
+                    Text("アイテム \(index)")
+                        .padding()
+                        .background(Color.blue.opacity(0.5))
+                        .cornerRadius(10)
+                }
+            }
         }
-        .padding() // 周囲に余白を追加します
+        .padding()
     }
 }
 
