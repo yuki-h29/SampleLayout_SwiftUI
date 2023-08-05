@@ -14,6 +14,7 @@
 		2347FB7C2A7DC13700913371 /* SampleLayout_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB7B2A7DC13700913371 /* SampleLayout_SwiftUITests.swift */; };
 		2347FB862A7DC13700913371 /* SampleLayout_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB852A7DC13700913371 /* SampleLayout_SwiftUIUITests.swift */; };
 		2347FB882A7DC13700913371 /* SampleLayout_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB872A7DC13700913371 /* SampleLayout_SwiftUIUITestsLaunchTests.swift */; };
+		2347FB952A7DDB0D00913371 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB942A7DDB0D00913371 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2347FB812A7DC13700913371 /* SampleLayout_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLayout_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2347FB852A7DC13700913371 /* SampleLayout_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLayout_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		2347FB872A7DC13700913371 /* SampleLayout_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLayout_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2347FB942A7DDB0D00913371 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2347FB6A2A7DC13600913371 /* SampleLayout_SwiftUIApp.swift */,
 				2347FB6C2A7DC13600913371 /* ContentView.swift */,
+				2347FB942A7DDB0D00913371 /* ButtonView.swift */,
 				2347FB6E2A7DC13700913371 /* Assets.xcassets */,
 				2347FB702A7DC13700913371 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				2347FB6D2A7DC13600913371 /* ContentView.swift in Sources */,
 				2347FB6B2A7DC13600913371 /* SampleLayout_SwiftUIApp.swift in Sources */,
+				2347FB952A7DDB0D00913371 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
