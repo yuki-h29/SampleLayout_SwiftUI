@@ -17,7 +17,7 @@
 		2347FB952A7DDB0D00913371 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB942A7DDB0D00913371 /* ButtonView.swift */; };
 		2347FB972A7DE00D00913371 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB962A7DE00D00913371 /* TextFieldView.swift */; };
 		2347FB992A7DEFCC00913371 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB982A7DEFCC00913371 /* ImageView.swift */; };
-		2347FB9B2A7DF1BA00913371 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB9A2A7DF1BA00913371 /* TextView.swift */; };
+		2347FB9F2A7F7D6100913371 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FB9E2A7F7D6100913371 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		2347FB942A7DDB0D00913371 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2347FB962A7DE00D00913371 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		2347FB982A7DEFCC00913371 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		2347FB9A2A7DF1BA00913371 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		2347FB9E2A7F7D6100913371 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 			children = (
 				2347FB6A2A7DC13600913371 /* SampleLayout_SwiftUIApp.swift */,
 				2347FB6C2A7DC13600913371 /* ContentView.swift */,
-				2347FB9A2A7DF1BA00913371 /* TextView.swift */,
 				2347FB942A7DDB0D00913371 /* ButtonView.swift */,
+				2347FB9E2A7F7D6100913371 /* TextView.swift */,
 				2347FB962A7DE00D00913371 /* TextFieldView.swift */,
 				2347FB982A7DEFCC00913371 /* ImageView.swift */,
 				2347FB6E2A7DC13700913371 /* Assets.xcassets */,
@@ -272,7 +272,7 @@
 				2347FB992A7DEFCC00913371 /* ImageView.swift in Sources */,
 				2347FB6D2A7DC13600913371 /* ContentView.swift in Sources */,
 				2347FB6B2A7DC13600913371 /* SampleLayout_SwiftUIApp.swift in Sources */,
-				2347FB9B2A7DF1BA00913371 /* TextView.swift in Sources */,
+				2347FB9F2A7F7D6100913371 /* TextView.swift in Sources */,
 				2347FB972A7DE00D00913371 /* TextFieldView.swift in Sources */,
 				2347FB952A7DDB0D00913371 /* ButtonView.swift in Sources */,
 			);
